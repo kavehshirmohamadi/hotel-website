@@ -1,0 +1,349 @@
+                        // Color
+                        $color:#fff;
+                        $colornav:#F7C08A;
+                        $btnbg:rgb(87, 83, 85);
+                        * {
+                            padding: 0;
+                            margin: 0;
+                            box-sizing: border-box;
+                        }
+                        
+                        // Font
+                        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+                        body {
+                            font-family: 'Roboto', sans-serif;
+                        }
+                        
+                        // Navbar
+                        nav {
+                            display: block;
+                            width: 100%;
+                            padding: 0 20px;
+                            background-color: rgba(255, 255, 255, 0);
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            a {
+                                float: left;
+                                text-decoration: none;
+                                color: $colornav;
+                                letter-spacing: 2px;
+                                padding: 20px;
+                                text-align: center;
+                                &:hover {
+                                    color: $color;
+                                }
+                            }
+                            li {
+                                float: right;
+                                list-style: none;
+                                padding: 25px;
+                                color: $colornav;
+                                &:hover {
+                                    cursor: pointer;
+                                    color: $color;
+                                }
+                                &:nth-child(1) a {
+                                    margin: 0;
+                                    padding: 0;
+                                }
+                                &:nth-child(2) a {
+                                    margin: 0;
+                                    padding: 0;
+                                }
+                                &:nth-child(3) a {
+                                    margin: 0;
+                                    padding: 0;
+                                }
+                            }
+                        }
+                        
+                        // End Navbar
+                        // header
+                        header {
+                            display: block;
+                            .header-content {
+                                width: 100%;
+                                height: 100vh;
+                                background-image: url(../image/showcase.jpg);
+                                background-repeat: no-repeat;
+                                background-attachment: fixed;
+                                background-size: cover;
+                                background-position: center;
+                            }
+                            .row {
+                                padding-top: 230px;
+                                text-align: center;
+                                h2 {
+                                    color: $color;
+                                    font-size: 3rem;
+                                    font-weight: 700;
+                                    span {
+                                        color: $colornav;
+                                    }
+                                }
+                                p {
+                                    width: 750px;
+                                    text-align: center;
+                                    margin: auto;
+                                    color: $color;
+                                    font-size: 1.2rem;
+                                    margin-top: 10px;
+                                    margin-bottom: 50px;
+                                }
+                                a {
+                                    text-decoration: none;
+                                    padding: 15px;
+                                    color: $color;
+                                    font-weight: 900;
+                                    letter-spacing: 1px;
+                                    &:hover {
+                                        border: 2px solid $color;
+                                    }
+                                }
+                            }
+                        }
+                        
+                        // End header
+                        // section hotel info
+                        .hotel-info {
+                            width: 100%;
+                            height: 400px;
+                            .home-image {
+                                float: left;
+                                width: 50%;
+                                min-height: 100%;
+                                background: url('../image/photo-1.jpg') no-repeat;
+                                background-attachment: fixed;
+                            }
+                            .home-content {
+                                float: right;
+                                width: 50%;
+                                min-height: 100%;
+                                text-align: center;
+                                background-color: $btnbg;
+                                h2 {
+                                    padding-top: 20px;
+                                    color: $color;
+                                    span {
+                                        color: $colornav;
+                                    }
+                                }
+                                p {
+                                    line-height: 1.7rem;
+                                    text-align: justify;
+                                    color: $color;
+                                    padding: 40px 30px;
+                                    overflow: hidden;
+                                }
+                                a {
+                                    text-decoration: none;
+                                    padding: 15px;
+                                    color: $color;
+                                    font-weight: 900;
+                                    letter-spacing: 1px;
+                                    &:hover {
+                                        border: 2px solid $color;
+                                    }
+                                }
+                            }
+                        }
+                        
+                        // End section hotel info
+                        /******************* features ***********/
+                        
+                        .box {
+                            float: left;
+                            width: 33.33%;
+                            padding: 50px;
+                            text-align: center;
+                            &:nth-child(2) {
+                                background-color: $colornav;
+                            }
+                            i {
+                                color: $btnbg;
+                                font-size: 2.5rem;
+                                padding: 10px;
+                            }
+                            h3 {
+                                color: $btnbg;
+                                padding: 10px;
+                            }
+                            p {
+                                color: $btnbg;
+                            }
+                        }
+                        /*********** Footer *****************/
+                        
+                        footer {
+                            width: 100%;
+                            height: 100%;
+                            padding: 30px;
+                            background-color: $btnbg;
+                            p {
+                                text-align: center;
+                                color: $color;
+                            }
+                        }
+                        /*********** Footer *****************/
+                        /******************************* About Page ************************/
+                        
+                        .about-info {
+                            background-color: $color;
+                            .info-right {
+                                float: right;
+                                width: 50%;
+                                min-height: 100%;
+                                img {
+                                    display: block;
+                                    width: 100%;
+                                    min-height: 100%;
+                                    margin: auto;
+                                }
+                            }
+                            .info-left {
+                                float: left;
+                                width: 50%;
+                                min-height: 100%;
+                                margin-top: 20px;
+                                h1 {
+                                    text-align: center;
+                                    padding: 20px;
+                                }
+                                p {
+                                    text-align: center;
+                                    line-height: 1.5rem;
+                                }
+                            }
+                        }
+                        
+                        .testmonial {
+                            width: 100%;
+                            height: 600px;
+                            padding: 30px;
+                            background-image: url(../image/test-bg.jpg);
+                            background-repeat: no-repeat;
+                            background-attachment: fixed;
+                            background-position: center;
+                            background-size: cover;
+                            h2 {
+                                text-align: center;
+                                padding: 20px;
+                                color: $color;
+                                font-size: 2.2rem;
+                            }
+                            .test-1 {
+                                background-color: $colornav;
+                                padding: 10px;
+                                margin-bottom: 40px;
+                                border-radius: 5px;
+                                -webkit-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.32);
+                                -moz-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.32);
+                                box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.32);
+                                img {
+                                    float: left;
+                                    width: 100px;
+                                    height: 100px;
+                                    margin-right: 20px;
+                                    border-radius: 50px;
+                                }
+                                p {
+                                    text-align: left;
+                                    padding: 30px;
+                                }
+                            }
+                            .test-2 {
+                                background-color: $colornav;
+                                padding: 10px;
+                                margin-bottom: 40px;
+                                img {
+                                    float: left;
+                                    width: 100px;
+                                    height: 100px;
+                                    margin-right: 20px;
+                                    border-radius: 50px;
+                                }
+                                p {
+                                    text-align: left;
+                                    padding: 30px;
+                                }
+                            }
+                        }
+                        /*******************************End About Page ************************/
+                        /******************************* Contact Page ************************/
+                        
+                        .contact {
+                            width: 700;
+                            height: 600px;
+                            .container {
+                                margin: auto;
+                                max-width: 1100px;
+                                overflow: auto;
+                                padding: 0 20px;
+                                .content {
+                                    padding: 20px;
+                                    h1 {
+                                        margin-bottom: 10px;
+                                        font-size: 3.4rem;
+                                        span {
+                                            color: $colornav;
+                                        }
+                                    }
+                                    p {
+                                        margin-left: 50px;
+                                        margin-bottom: 30px;
+                                    }
+                                    .form-group {
+                                        margin-bottom: 10px;
+                                        label {
+                                            display: block;
+                                            margin-bottom: 10px;
+                                        }
+                                        input {
+                                            padding: 10px;
+                                            width: 100%;
+                                            height: 40px;
+                                            &:focus {
+                                                outline: none;
+                                            }
+                                        }
+                                        textarea {
+                                            padding: 10px;
+                                            width: 100%;
+                                            height: 100px;
+                                            &:focus {
+                                                outline: none;
+                                            }
+                                        }
+                                    }
+                                    button {
+                                        padding: 15px 30px;
+                                        font-weight: normal;
+                                        letter-spacing: 1px;
+                                        font-size: 1.2rem;
+                                        background-color: $btnbg;
+                                        color: $color;
+                                        border: none;
+                                        &:hover {
+                                            cursor: pointer;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        /*******************************End Contact Page ************************/
+                        /* For Float */
+                        
+                        .group:before,
+                        .group:after {
+                            content: "";
+                            display: table;
+                        }
+                        
+                        .group:after {
+                            clear: both;
+                        }
+                        
+                        .group {
+                            zoom: 1;
+                        }

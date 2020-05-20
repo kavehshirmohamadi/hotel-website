@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  display: block;
+  width: 100%;
+  padding: 0 20px;
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+nav a {
+  float: left;
+  text-decoration: none;
+  color: #F7C08A;
+  letter-spacing: 2px;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+nav li {
+  float: right;
+  list-style: none;
+  padding: 25px;
+  color: #F7C08A;
+}
+
+nav li:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+nav li:nth-child(1) a {
+  margin: 0;
+  padding: 0;
+}
+
+nav li:nth-child(2) a {
+  margin: 0;
+  padding: 0;
+}
+
+nav li:nth-child(3) a {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: block;
+}
+
+header .header-content {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../image/showcase.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+header .row {
+  padding-top: 230px;
+  text-align: center;
+}
+
+header .row h2 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+header .row h2 span {
+  color: #F7C08A;
+}
+
+header .row p {
+  width: 750px;
+  text-align: center;
+  margin: auto;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+header .row a {
+  text-decoration: none;
+  padding: 15px;
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+header .row a:hover {
+  border: 2px solid #fff;
+}
+
+.hotel-info {
+  width: 100%;
+  height: 400px;
+}
+
+.hotel-info .home-image {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  background: url("../image/photo-1.jpg") no-repeat;
+  background-attachment: fixed;
+}
+
+.hotel-info .home-content {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+  text-align: center;
+  background-color: #575355;
+}
+
+.hotel-info .home-content h2 {
+  padding-top: 20px;
+  color: #fff;
+}
+
+.hotel-info .home-content h2 span {
+  color: #F7C08A;
+}
+
+.hotel-info .home-content p {
+  line-height: 1.7rem;
+  text-align: justify;
+  color: #fff;
+  padding: 40px 30px;
+  overflow: hidden;
+}
+
+.hotel-info .home-content a {
+  text-decoration: none;
+  padding: 15px;
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.hotel-info .home-content a:hover {
+  border: 2px solid #fff;
+}
+
+/******************* features ***********/
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box:nth-child(2) {
+  background-color: #F7C08A;
+}
+
+.box i {
+  color: #575355;
+  font-size: 2.5rem;
+  padding: 10px;
+}
+
+.box h3 {
+  color: #575355;
+  padding: 10px;
+}
+
+.box p {
+  color: #575355;
+}
+
+/*********** Footer *****************/
+footer {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  background-color: #575355;
+}
+
+footer p {
+  text-align: center;
+  color: #fff;
+}
+
+/*********** Footer *****************/
+/******************************* About Page ************************/
+.about-info {
+  background-color: #fff;
+}
+
+.about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+.about-info .info-right img {
+  display: block;
+  width: 100%;
+  min-height: 100%;
+  margin: auto;
+}
+
+.about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  margin-top: 20px;
+}
+
+.about-info .info-left h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.about-info .info-left p {
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.testmonial {
+  width: 100%;
+  height: 600px;
+  padding: 30px;
+  background-image: url(../image/test-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.testmonial h2 {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  font-size: 2.2rem;
+}
+
+.testmonial .test-1 {
+  background-color: #F7C08A;
+  padding: 10px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.32);
+  box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.32);
+}
+
+.testmonial .test-1 img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+.testmonial .test-1 p {
+  text-align: left;
+  padding: 30px;
+}
+
+.testmonial .test-2 {
+  background-color: #F7C08A;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.testmonial .test-2 img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+.testmonial .test-2 p {
+  text-align: left;
+  padding: 30px;
+}
+
+/*******************************End About Page ************************/
+/******************************* Contact Page ************************/
+.contact {
+  width: 700;
+  height: 600px;
+}
+
+.contact .container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.contact .container .content {
+  padding: 20px;
+}
+
+.contact .container .content h1 {
+  margin-bottom: 10px;
+  font-size: 3.4rem;
+}
+
+.contact .container .content h1 span {
+  color: #F7C08A;
+}
+
+.contact .container .content p {
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.contact .container .content .form-group {
+  margin-bottom: 10px;
+}
+
+.contact .container .content .form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact .container .content .form-group input {
+  padding: 10px;
+  width: 100%;
+  height: 40px;
+}
+
+.contact .container .content .form-group input:focus {
+  outline: none;
+}
+
+.contact .container .content .form-group textarea {
+  padding: 10px;
+  width: 100%;
+  height: 100px;
+}
+
+.contact .container .content .form-group textarea:focus {
+  outline: none;
+}
+
+.contact .container .content button {
+  padding: 15px 30px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  background-color: #575355;
+  color: #fff;
+  border: none;
+}
+
+.contact .container .content button:hover {
+  cursor: pointer;
+}
+
+/*******************************End Contact Page ************************/
+/* For Float */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+/*# sourceMappingURL=Style.css.map */
